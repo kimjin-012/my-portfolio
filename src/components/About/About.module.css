@@ -1,0 +1,31 @@
+.aboutme {
+    background-color: rgb(173, 95, 173);
+}
+
+.aboutme .container {
+    display: flex;
+}
+
+.aboutme .container .descript {
+    width: 47%;
+    color: white;
+    margin-left: 3%;
+}
+
+.aboutme .container .descript h2 {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.aboutme .container .photo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme .container .photo .me {
+    height: 500px;
+    border-radius: 10%;
+
+    width: 300px;
+}

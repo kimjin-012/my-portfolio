@@ -1,0 +1,36 @@
+.home {
+    background: white;
+    display: flex;
+    height: 630px;
+    padding-top: 80px;
+    position: relative;
+}
+
+.home .container {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: purple;
+}
+
+.home .container .hello {
+    font-size: 60px;
+}
+
+.home .container h1{
+    margin: 0;
+}
+
+.home .profile {
+    height: 24%;
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+}
+
+.home .bin {
+    height: 70%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
