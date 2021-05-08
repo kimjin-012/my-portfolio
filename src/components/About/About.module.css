@@ -1,5 +1,6 @@
 .aboutme {
-    background-color: rgb(173, 95, 173);
+    background: rgb(184,135,236);
+    background: linear-gradient(36deg, rgba(184,135,236,1) 0%, rgba(143,91,255,1) 32%, rgba(93,221,247,1) 95%);
 }
 
 .aboutme .container {

@@ -15,10 +15,12 @@
 
 .home .container .hello {
     font-size: 60px;
+    z-index: 1;
 }
 
 .home .container h1{
     margin: 0;
+    z-index: 1;
 }
 
 .home .profile {
@@ -33,4 +35,5 @@
     position: absolute;
     right: 10%;
     top: 20%;
+    z-index: 0;
 }

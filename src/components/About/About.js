@@ -3,7 +3,7 @@ import classes from './About.module.css'
 
 import Header from '../Header/Header'
 
-import me from '../../images/1551262561_PastelCrazyEastsiberianlaika-size_restricted.gif'
+import me from '../../images/b924e35dc0eba4e34318e86481db69eb.gif'
 
 const About = () => {
     return (
