@@ -11,10 +11,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <Main />
-      <About />
-      <Skills />
-      <Project />
     </>
   );
 }
