@@ -1,0 +1,80 @@
+/* ----- Skills ----- */
+/* .skills_content
+{
+    width: 370px;
+} */
+
+.skills_container
+{
+    row-gap: 0;
+}
+
+.skills_header
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-1);
+}
+
+.skills_icon
+{
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+}
+
+.skills_subtitle
+{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.skills_title
+{
+    font-size: var(--h3-font-size);
+    margin-right: 15px;
+}
+
+.skills_name
+{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills_list
+{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+    margin-bottom: 20px;
+}
+
+hr
+{
+    border-top: 0.5px solid var(--first-color);
+}
+
+/* skills logo */
+.skills_html
+{
+    font-size: 1.5rem;
+    color: #E34F26;
+}
+
+.skills_css
+{
+    font-size: 1.5rem;
+    color: #1572B6;
+}
+
+.skills_js
+{
+    font-size: 1.5rem;
+    color: #F7DF1E;
+}
+
+.skills_react
+{
+    font-size: 1.5rem;
+    color: #61DAFB;
+}
+

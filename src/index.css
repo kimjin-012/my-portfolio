@@ -140,6 +140,11 @@ img{
   background-color: var(--body-color);
 }
 
+.container_flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Active link */
 
 
