@@ -23,7 +23,7 @@ const Navbar = () => {
         <header className="header" id="header">
             <nav className="nav container">
                 <a href="#" className="nav_logo">Jin</a>
-                <div className="nav_menu" id="nav_menu" onClick={navMenuHandler}> 
+                <div className="nav_menu" id="nav_menu"> 
                     <ul className="nav_list grid">
                         <li className="nav_item">
                             <a href="#home" className="nav_link" onClick={linkMenuHandler}>
