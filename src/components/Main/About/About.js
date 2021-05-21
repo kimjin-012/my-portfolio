@@ -30,10 +30,6 @@ const About = () => {
                             <span className="about_info-name"><i class="uil uil-search-alt button_icon"></i></span>
                         </div>
                     </div>
-
-                    <div className="about_button">
-                        <a href="#contact" className="button button--flex">Contact Me!<i class="uil uil-comment-alt-medical button_icon"></i></a>
-                    </div>
                 </div>
             </div>
         </div>

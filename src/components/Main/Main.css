@@ -1,0 +1,50 @@
+/* ----- main ----- */
+.scrolltop
+{
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+
+.scrolltop:hover
+{
+    background-color: var(--first-color-alt);
+}
+
+.scrolltop_icon
+{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.show-scroll
+{
+    bottom: 5rem;
+}
+
+/* scroll bar */
+::-webkit-scrollbar
+{
+    width: .60rem;
+    background-color: var(--scroll-bar-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: var(--scroll-thumb-color);
+    border-radius: .5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .header, .main, .footer_container
+    {
+        padding: 0;
+    }
+}

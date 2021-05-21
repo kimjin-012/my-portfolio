@@ -54,8 +54,9 @@ const Navbar = () => {
                     <i class="uil uil-times nav_close" id="nav_close" onClick={navCloseHandler}></i>
                 </div>
                 <div className="nav_button">
+
                     <div className="nav_toggle" id="nav_toggle" onClick={navToggleHandler}>
-                    <i class="uil uil-apps"></i>
+                        <i class="uil uil-apps"></i>
                     </div>
                 </div>
             </nav>

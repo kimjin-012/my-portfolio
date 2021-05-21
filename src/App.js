@@ -1,5 +1,4 @@
 import './App.css';
-import {Router} from '@reach/router'
 
 import Navbar from './components/Navbar/Navbar';
 import Main from './components/Main/Main';

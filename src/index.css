@@ -18,6 +18,9 @@
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #fff;
 
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
 
@@ -63,7 +66,6 @@
       --smaller-font-size: .813rem;
   }
 }
-
 /*==================== BASE ====================*/
 *{
   box-sizing: border-box;
@@ -145,62 +147,52 @@ img{
   flex-wrap: wrap;
 }
 
-/* Active link */
-
-
-/* Change background header */
-
-
-/*==================== HOME ====================*/
-
-
-/*==================== BUTTONS ====================*/
-
-
-/*==================== ABOUT ====================*/
-
-
-/*==================== SKILLS ====================*/
-
-
-/*==================== QUALIFICATION ====================*/
-
-
-/*==================== SERVICES ====================*/
-
-
-/* Active Modal */
-
-
-/*==================== PORTFOLIO ====================*/
-
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
-/*==================== CONTACT ME ====================*/
-
-
-/*==================== FOOTER ====================*/
-
-
-/*========== SCROLL UP ==========*/
-
-
-/* Show scroll */
-
-
-/*========== SCROLL BAR ==========*/
-
-
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media screen and (max-width: 350px) {
+  .container
+  {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 
+  .nav_menu
+  {
+    padding: 2rem .25rem 4rem;
+  }
+
+  .nav_list
+  {
+    column-gap: 10;
+  }
+
+  .home_content
+  {
+    grid-template-columns: .25fr 3fr;
+  }
+
+  .img_box
+  {
+    width: 180px;
+  }
+}
 
 /* For medium devices */
+@media screen and (min-width: 568px) {
+  .home_content{
+    grid-template-columns: max-content 1fr 1fr;
+  }
+  .home_data{
+    grid-column: initial;
+  }
+  .home_img{
+    order: 1;
+    justify-self: center;
+  }
 
+  .about_container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /* For large devices */

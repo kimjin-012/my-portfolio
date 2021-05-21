@@ -78,3 +78,15 @@ hr
     color: #61DAFB;
 }
 
+@media screen and (max-width: 350px) {
+    .skills_title
+    {
+        font-size: var(--normal-font-size);
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .skills_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
