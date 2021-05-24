@@ -36,13 +36,13 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="nav_item">
-                            <a href="#skills" className="nav_link" onClick={linkMenuHandler}>
-                            <i class="uil uil-file-check nav_icon"></i> Skills
+                            <a href="#project" className="nav_link" onClick={linkMenuHandler}>
+                            <i class="uil uil-books nav_icon"></i> Projects
                             </a>
                         </li>
                         <li className="nav_item">
-                            <a href="#project" className="nav_link" onClick={linkMenuHandler}>
-                            <i class="uil uil-books nav_icon"></i> Projects
+                            <a href="#skills" className="nav_link" onClick={linkMenuHandler}>
+                            <i class="uil uil-file-check nav_icon"></i> Skills
                             </a>
                         </li>
                         <li className="nav_item">

@@ -11,22 +11,34 @@ const Contact = () => {
             <div className="contact_container container grid">
                 <div>
                     <div className="contact_information">
-                    <i class="uil uil-envelopes contact_icon"></i>
+                    <a href="na02093@gmail.com" target="_blank"><i class="uil uil-envelopes contact_icon"></i></a>
 
                         <div>
-                            <h3 className="contact_title">Email Me!</h3>
+                            <a href="na02093@gmail.com" target="_blank"><h3 className="contact_title">Email Me!</h3></a>
                             <span className="contact_subtitle">na02093@gmail.com</span>
                         </div>
                     </div>
 
                     <div className="contact_information">
-                    <i class="uil uil-linkedin-alt contact_icon"></i>
+                    <a href="https://www.linkedin.com/in/jin-kim-code/" target="_blank"><i class="uil uil-linkedin-alt contact_icon"></i></a>
 
                         <div>
-                            <h3 className="contact_title">Connect!</h3>
-                            <span className="contact_subtitle">Seattle, Washington</span>
+                            <a href="https://www.linkedin.com/in/jin-kim-code/" target="_blank"><h3 className="contact_title">Connect with Me!</h3></a>
+                            <span className="contact_subtitle">linkedin.com/in/jin-kim-code</span>
                         </div>
                     </div>
+
+                    <div className="contact_information">
+                    <a href="https://github.com/kimjin-012" target="_blank"><i class="uil uil-github contact_icon"></i></a>
+
+                        <div>
+                            <a href="https://github.com/kimjin-012" target="_blank"><h3 className="contact_title">Check out my GitHub Page!</h3></a>
+                            <span className="contact_subtitle">https://github.com/kimjin-012</span>
+                        </div>
+                    </div>
+
+                    <br />
+                    <br />
 
                     <div className="contact_information">
                     <i class="uil uil-map-pin contact_icon"></i>

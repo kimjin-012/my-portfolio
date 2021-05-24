@@ -8,19 +8,13 @@ const Footer = () => {
             <div className="footer_bg">
                 <div className="footer_container container grid">
                     <div>
-                        <h1 className="footer_title">Jin</h1>
+                        <h1 className="footer_title">Jin Kim</h1>
                         <span className="footer_subtitle">FullStack Developer</span>
                     </div>
 
                     <ul className="footer_links">
                         <li>
-                            <a href="#about" className="footer_link">About</a>
-                        </li>
-                        <li>
-                            <a href="#project" className="footer_link">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#contact" className="footer_link">Contact</a>
+                            <a href="#about" className="footer_link">Thank you so much for cheking out this Page!</a>
                         </li>
                     </ul>
 

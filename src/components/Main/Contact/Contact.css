@@ -17,10 +17,20 @@
     margin-right: var(--mb-0-75);
 }
 
+.contact_icon:hover
+{
+    color: var(--first-color-alt);
+}
+
 .contact_title
 {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
+}
+
+.contact_title:hover
+{
+    color: var(--first-color-second);
 }
 
 .contact_subtitle

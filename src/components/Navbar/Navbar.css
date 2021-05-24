@@ -1,6 +1,6 @@
 /* ------------- Navbar ------------- */
 .header{
-    background-color: antiquewhite;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, .15);
 }
 .nav{
     max-width: 968px;
@@ -108,7 +108,7 @@
 
     .nav_list
     {
-        column-gap: 10;
+        column-gap: 0;
     }
 }
 
