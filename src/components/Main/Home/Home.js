@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 
 import Image from '../../../images/b924e35dc0eba4e34318e86481db69eb.gif'
+import Profile from '../../../images/Jin_Kim_1774403.jpg'
 
 const Home = () => {
     return (
@@ -24,7 +25,7 @@ const Home = () => {
                     <div className="home_img">
                         {/* profile image here */}
                         <div className="img_box">
-                            <img src={Image} alt="profile" />
+                            <img src={Profile} alt="profile" />
                         </div>
                     </div>
 
