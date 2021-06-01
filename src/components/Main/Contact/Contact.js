@@ -20,19 +20,19 @@ const Contact = () => {
                     </div>
 
                     <div className="contact_information">
-                    <a href="https://www.linkedin.com/in/jin-kim-code/" target="_blank"><i class="uil uil-linkedin-alt contact_icon"></i></a>
+                    <a href="https://www.linkedin.com/in/jin-kim-code/" rel="noreferrer" target="_blank"><i class="uil uil-linkedin-alt contact_icon"></i></a>
 
                         <div>
-                            <a href="https://www.linkedin.com/in/jin-kim-code/" target="_blank"><h3 className="contact_title">Connect with Me!</h3></a>
+                            <a href="https://www.linkedin.com/in/jin-kim-code/" rel="noreferrer" target="_blank"><h3 className="contact_title">Connect with Me!</h3></a>
                             <span className="contact_subtitle">linkedin.com/in/jin-kim-code</span>
                         </div>
                     </div>
 
                     <div className="contact_information">
-                    <a href="https://github.com/kimjin-012" target="_blank"><i class="uil uil-github contact_icon"></i></a>
+                    <a href="https://github.com/kimjin-012" rel="noreferrer" target="_blank"><i class="uil uil-github contact_icon"></i></a>
 
                         <div>
-                            <a href="https://github.com/kimjin-012" target="_blank"><h3 className="contact_title">Check out my GitHub Page!</h3></a>
+                            <a href="https://github.com/kimjin-012" rel="noreferrer" target="_blank"><h3 className="contact_title">Check out my GitHub Page!</h3></a>
                             <span className="contact_subtitle">https://github.com/kimjin-012</span>
                         </div>
                     </div>

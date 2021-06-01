@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+// This Navbar file is not being used at the moment.
+import React from 'react'
 import './Navbar.css';
 import $ from 'jquery'
 
@@ -22,7 +23,7 @@ const Navbar = () => {
         <>
         <header className="header" id="header">
             <nav className="nav container">
-                <a href="#" className="nav_logo">Jin</a>
+                <a href="#home" className="nav_logo">Jin</a>
                 <div className="nav_menu" id="nav_menu"> 
                     <ul className="nav_list grid">
                         <li className="nav_item">

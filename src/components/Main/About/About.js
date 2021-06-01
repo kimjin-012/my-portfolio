@@ -10,7 +10,7 @@ const About = () => {
             <span className="section_subtitle">Introduction</span>
 
             <div className="about_container container grid">
-                <img src={AboutImg} alt="about image" className="about_img" />
+                <img src={AboutImg} alt="about" className="about_img" />
 
                 <div className="about_data">
                     <p className="about_description">Hello!, I am a Full Stack Developer with great passion and knowledge in Front-end, Back-end, and Database developing.

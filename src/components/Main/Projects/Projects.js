@@ -32,12 +32,12 @@ const Projects = () => {
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Implemented responsive Login and Registration page by connecting with MySQL database</li>
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Implemented a Commenting function so users can freely post and delete their comments on any posts</li>
                                 </ul>
-                                <a href="https://github.com/kimjin-012/share-tracker" target="_blank" className="button button--flex">
+                                <a href="https://github.com/kimjin-012/share-tracker" rel="noreferrer" target="_blank" className="button button--flex">
                                     GitHub <i class="uil uil-external-link-alt button_icon"></i>
                                 </a>
                             </div>
                             <div className="projects_title">
-                                <img src={starImage} alt="project image" className="projects_img" />
+                                <img src={starImage} alt="project img" className="projects_img" />
                             </div>
                         </div>
                     </div>
@@ -62,12 +62,12 @@ const Projects = () => {
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Front-end is designed with React to be fully responsive</li>
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Validation is implemented with MongoDB and front-end application (React) can display the validation error message when it's necessary</li>
                                 </ul>
-                                <a href="https://github.com/kimjin-012/event-planner" target="_blank" className="button button--flex">
+                                <a href="https://github.com/kimjin-012/event-planner" rel="noreferrer" target="_blank" className="button button--flex">
                                     GitHub <i class="uil uil-external-link-alt button_icon"></i>
                                 </a>
                             </div>
                             <div className="projects_title">
-                                <img src={eventImage} alt="project image" className="projects_img" />
+                                <img src={eventImage} alt="project img" className="projects_img" />
                             </div>
                         </div>
                     </div>
@@ -92,12 +92,12 @@ const Projects = () => {
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Validation is designed with Django from back-end and front-end can show the validation error messages</li>
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Using Spotify music recommendation list API, the website will display the list of recommendation musics for the user</li>
                                 </ul>
-                                <a href="https://github.com/kimjin-012/Musify" target="_blank" className="button button--flex">
+                                <a href="https://github.com/kimjin-012/Musify" rel="noreferrer" target="_blank" className="button button--flex">
                                     GitHub <i class="uil uil-external-link-alt button_icon"></i>
                                 </a>
                             </div>
                             <div className="projects_title">
-                                <img src={musicImage} alt="project image" className="projects_img" />
+                                <img src={musicImage} alt="project img" className="projects_img" />
                             </div>
                         </div>
                     </div>

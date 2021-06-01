@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css'
 
-import Image from '../../../images/b924e35dc0eba4e34318e86481db69eb.gif'
 import Profile from '../../../images/Jin_Kim_1774403.jpg'
 
 const Home = () => {
@@ -11,13 +10,13 @@ const Home = () => {
             <div className="home_container container grid">
                 <div className="home_content grid">
                     <div className="home_social">
-                        <a href="https://www.linkedin.com/in/jin-kim-code/" target="_blank" className="home_social-icon">
+                        <a href="https://www.linkedin.com/in/jin-kim-code/" rel="noreferrer" target="_blank" className="home_social-icon">
                         <i class="uil uil-linkedin"></i>
                         </a>
-                        <a href="https://github.com/kimjin-012" target="_blank" className="home_social-icon">
+                        <a href="https://github.com/kimjin-012" rel="noreferrer" target="_blank" className="home_social-icon">
                         <i class="uil uil-github"></i>
                         </a>
-                        <a href="#" target="_blank" className="home_social-icon">
+                        <a href="#home" target="_blank" className="home_social-icon">
                         <i class="uil uil-dribbble"></i>
                         </a>
                     </div>
