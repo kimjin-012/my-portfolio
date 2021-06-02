@@ -11,10 +11,10 @@ const Contact = () => {
             <div className="contact_container container grid">
                 <div>
                     <div className="contact_information">
-                    <a href="na02093@gmail.com" target="_blank"><i class="uil uil-envelopes contact_icon"></i></a>
+                    <a href="mailto:na02093@gmail.com"><i class="uil uil-envelopes contact_icon"></i></a>
 
                         <div>
-                            <a href="na02093@gmail.com" target="_blank"><h3 className="contact_title">Email Me!</h3></a>
+                            <a href="mailto:na02093@gmail.com"><h3 className="contact_title">Email Me!</h3></a>
                             <span className="contact_subtitle">na02093@gmail.com</span>
                         </div>
                     </div>

@@ -16,8 +16,8 @@ const Home = () => {
                         <a href="https://github.com/kimjin-012" rel="noreferrer" target="_blank" className="home_social-icon">
                         <i class="uil uil-github"></i>
                         </a>
-                        <a href="#home" target="_blank" className="home_social-icon">
-                        <i class="uil uil-dribbble"></i>
+                        <a href="mailto:na02093@gmail.com" className="home_social-icon">
+                        <i class="uil uil-envelopes"></i>
                         </a>
                     </div>
 
