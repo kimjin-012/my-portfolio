@@ -1,6 +1,7 @@
 .projects_content
 {
     margin-bottom: var(--mb-1);
+    grid-template-columns: .5fr 3fr;
 }
 
 .projects_container
@@ -66,6 +67,122 @@
 .projects_title img
 {
     width: 450px;
+}
+
+@media screen and (max-width: 350px) {
+    .container
+    {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+
+    /* .projects_content
+    {
+        grid-template-columns: .25fr 3fr;
+        width: 340px;
+    } */
+
+    .container_flex, .projects_list
+    {
+        width: 240px;
+    }
+
+    .projects_main_contain
+    {
+        width: 240px;
+        padding-right: var(--mb-0-5);
+    }
+
+    .projects_img
+    {
+        height: 180px;
+        width: 180px;
+    }
+
+    .projects_title
+    {
+        font-size: var(--normal-font-size);
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .home_content{
+        grid-template-columns: max-content 1fr 1fr;
+    }
+    .home_data{
+        grid-column: initial;
+    }
+    .home_img{
+        order: 1;
+        justify-self: center;
+    }
+
+    .img_box
+    {
+        height: 210px;
+        width: 210px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body{
+        margin: 0;
+    }
+
+    .section{
+        padding: 6rem 0 2rem;
+    }
+    .seciton_subtitle{
+        margin-bottom: 4rem;
+    }
+
+    .header{
+        top: 0;
+        bottom: initial;
+    }
+
+    .header, .main, .footer_container
+    {
+        padding: 0 1rem;
+    }
+
+    .home_container{
+        row-gap: 5rem;
+    }
+    .home_content{
+        padding-top: 5.5rem;
+        column-gap: 2rem;
+    }
+    .img_box{
+        width: 270px;
+        height: 270px;
+    }
+    .home_scroll{
+        display: block;
+    }
+    .home_scroll-button{
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header, .main, .footer_container
+    {
+        padding: 0;
+    }
+
+    .img_box{
+        width: 320px;
+        height: 320px;
+    }
+    .home_social{
+        transform: translateX(-6rem);
+    }
 }
 
 @media screen and (max-width: 350px) {

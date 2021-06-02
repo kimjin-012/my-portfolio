@@ -17,7 +17,7 @@ const Projects = () => {
                 <div className="projects_content">
                     <div className="projects_header">
                         <i class="uil uil-star projects_icon"></i>
-                        <div>
+                        <div className="projects_main_contain">
                             <h1 className="projects_title">Share Tracker</h1>
                             <span className="projects_subtitle">C#, ASP.NET Core, MySQL, CSHTML, Bootstrap</span>
                         </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="projects_content">
                     <div className="projects_header">
                         <i class="uil uil-map projects_icon"></i>
-                        <div>
+                        <div className="projects_main_contain">
                             <h1 className="projects_title">Event Planner</h1>
                             <span className="projects_subtitle">MongoDB, Express.js, React.js, Node.js, Google Map API, HTML/CSS, Bootstrap</span>
                         </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                 <div className="projects_content">
                     <div className="projects_header">
                         <i class="uil uil-music projects_icon"></i>
-                        <div>
+                        <div className="projects_main_contain">
                             <h1 className="projects_title">Musify</h1>
                             <span className="projects_subtitle">Python, Django, Bcrypt, Regex, HTML/CSS, Bootstrap, Spotify API</span>
                         </div>
