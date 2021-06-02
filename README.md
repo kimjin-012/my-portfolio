@@ -11,4 +11,4 @@ So I have created this Portfolio to display more about my projects and skills!
 - This website is created using React
 
 ## Contact me! / About Me
-Jin Kim - [Email](na02093@gmail.com) - [Github](https://github.com/kimjin-012) - [LinkedIn](https://www.linkedin.com/in/jin-kim-code/)
+Jin Kim - <a href="mailto:na02093@gmail.com">Email</a> - [Github](https://github.com/kimjin-012) - [LinkedIn](https://www.linkedin.com/in/jin-kim-code/)
