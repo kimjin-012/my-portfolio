@@ -55,7 +55,7 @@
 }
 .projects_title p
 {
-    width: 700px;
+    /* width: 700px; */
     text-align: center;
 }
 
@@ -67,6 +67,16 @@
 .projects_title img
 {
     width: 450px;
+}
+
+.projects_img
+{
+    width: 450px;
+}
+
+.projects_title
+{
+    width: 240px;
 }
 
 @media screen and (max-width: 350px) {
@@ -82,6 +92,11 @@
         width: 340px;
     } */
 
+    .projects_title
+    {
+        width: 240px;
+    }
+
     .container_flex, .projects_list
     {
         width: 240px;
@@ -95,8 +110,7 @@
 
     .projects_img
     {
-        height: 180px;
-        width: 180px;
+        width: 250px;
     }
 
     .projects_title

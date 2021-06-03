@@ -36,7 +36,7 @@ const Projects = () => {
                                     GitHub <i class="uil uil-external-link-alt button_icon"></i>
                                 </a>
                             </div>
-                            <div className="projects_title">
+                            <div className="projects_t">
                                 <img src={starImage} alt="project img" className="projects_img" />
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Projects = () => {
                                     GitHub <i class="uil uil-external-link-alt button_icon"></i>
                                 </a>
                             </div>
-                            <div className="projects_title">
+                            <div className="projects_t">
                                 <img src={eventImage} alt="project img" className="projects_img" />
                             </div>
                         </div>
@@ -96,7 +96,7 @@ const Projects = () => {
                                     GitHub <i class="uil uil-external-link-alt button_icon"></i>
                                 </a>
                             </div>
-                            <div className="projects_title">
+                            <div className="projects_t">
                                 <img src={musicImage} alt="project img" className="projects_img" />
                             </div>
                         </div>
