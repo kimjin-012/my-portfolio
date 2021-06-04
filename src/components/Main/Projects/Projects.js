@@ -57,7 +57,7 @@ const Projects = () => {
                             <div className="projects_title_main">
                                 <p className="projects_description">Event Planning website for users who wish to register plans for others to see</p>
                                 <ul>
-                                    <li><i class="uil uil-angle-right-b project_bullet"></i>Constructed back-end and front-end with MERN Stack</li>
+                                    <li><i class="uil uil-angle-right-b project_bullet"></i>Constructed back-end and front-end with MERN</li>
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Implement a Google Map API to allow the users to see the location of the events</li>
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Front-end is designed with React to be fully responsive</li>
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Validation is implemented with MongoDB and front-end application (React) can display the validation error message when it's necessary</li>
@@ -85,7 +85,7 @@ const Projects = () => {
                     <div className="projects_list grid">
                         <div className="projects_data container_flex">
                             <div className="projects_title_main">
-                                <p className="projects_description">Music playing website where users can search and play music using Spotify service. The website will also give the user a list of recommendation musics according to their music choice</p>
+                                <p className="projects_description">Music playing website where users can search and play music using Spotify service. The website will also give the user a list of recommendations according to the user's music choice</p>
                                 <ul>
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Constructed back-end using Django and front-end using HTML/CSS</li>
                                     <li><i class="uil uil-angle-right-b project_bullet"></i>Implement a Spotify API to allow the users to seach and play musics</li>

@@ -31,7 +31,7 @@ const Home = () => {
                     <div className="home_data">
                         <h1 className="home_title">Hello!, I am <span>Jin</span></h1>
                         <h3 className="home_subtitle">FullStack Developer</h3>
-                        <p className="home_description">High level experience in web design, data structuring, and producing inventive work</p>
+                        <p className="home_description">"404 problems are not enough to stop me from creating what I imagine"</p>
                         <a href="#contact" className="button button--flex">
                             Contact Me <i class="uil uil-comment-alt-medical button_icon"></i>
                         </a>

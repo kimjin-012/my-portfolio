@@ -13,7 +13,13 @@ const About = () => {
                 <img src={AboutImg} alt="about" className="about_img" />
 
                 <div className="about_data">
-                    <p className="about_description">Hello!, I am a Full Stack Developer with great passion and knowledge in Front-end, Back-end, and Database developing.
+                    <p className="about_description">
+                        Hello!, I have an ability to turn Coffee into Code! 
+                    </p>
+                    <p className="about_description">That's right I am a Full Stack Developer and I have great passion and knowledge in Front-end, Back-end, and Database development.
+                    </p>
+                    <p className="about_description">
+                        I am fond of turning project ideas into reality! Every day is an opportunity to learn new technologies!
                     </p>
 
                     <div className="about_info">
