@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 
+import mapImage from './image/map.gif'
 import starImage from './image/star.gif'
 import eventImage from './image/event.gif'
 import musicImage from './image/musify.png'
@@ -13,6 +14,37 @@ const Projects = () => {
             <span className="section_subtitle">What I've made</span>
 
             <div className="projects_container container container_flex grid">
+                {/* Fourth Project : Your direction */}
+                <div className="projects_content">
+                    <div className="projects_header">
+                        <i class="uil uil-directions projects_icon"></i>
+                        <div className="projects_main_contain">
+                            <h1 className="projects_title">Your Direction</h1>
+                            <span className="projects_subtitle">React.js, Google Maps API, Tom Tom API, HTML/CSS, Bootstrap</span>
+                        </div>
+                    </div>
+                    
+                    <div className="projects_list grid">
+                        <div className="projects_data container_flex">
+                            <div className="projects_title_main">
+                                <p className="projects_description">Responsive Map website where users can mark their position and their destinations to find the fastest route to arrive at their destination.</p>
+                                <ul>
+                                    <li><i class="uil uil-angle-right-b project_bullet"></i>Construted Front-end using React, HTML, CSS with Bootstrap</li>
+                                    <li><i class="uil uil-angle-right-b project_bullet"></i>Implemented TomTom API for adding complex map functions. Such as distance calculation and live traffic information display</li>
+                                    <li><i class="uil uil-angle-right-b project_bullet"></i>Using React and TomTom API, the map can automatically calculate the fastest route from starting mark to destination mark.</li>
+                                    <li><i class="uil uil-angle-right-b project_bullet"></i>Implemented Google Maps API and React Geocode to convert the address into Longitude and Latitude</li>
+                                </ul>
+                                <a href="https://github.com/kimjin-012/responsive-map" rel="noreferrer" target="_blank" className="button button--flex">
+                                    GitHub <i class="uil uil-external-link-alt button_icon"></i>
+                                </a>
+                            </div>
+                            <div className="projects_t">
+                                <img src={mapImage} alt="project img" className="projects_img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* First Project : Share tracker */}
                 <div className="projects_content">
                     <div className="projects_header">
@@ -42,6 +74,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+
                 {/* Second Project : event share */}
                 <div className="projects_content">
                     <div className="projects_header">
@@ -72,6 +105,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+
                 {/* Third Project : Musify */}
                 <div className="projects_content">
                     <div className="projects_header">
