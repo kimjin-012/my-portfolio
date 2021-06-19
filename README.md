@@ -2,6 +2,10 @@
 
 Hello! My name is Jin and this is my Portfolio website repo!
 
+Check the website <a href="http://jinkim.tech">Here!</a>
+<br/>
+Website url : http://jinkim.tech
+
 ## About this Portfolio
 
 Websites are great ways to display work and share informations!
